@@ -64,28 +64,28 @@ is automatic, and will print the statement right onto the terminal for the user 
 ## Self Testing
 
 Here is the code done for a randomly generated matrix multiplied with the vector on C Language, and along
-side it the same values inputted into a perfectly working Python machine using the numpy library. (The left image is the C-Language program, and right is Python.
+side it the same values inputted into a perfectly working Python machine using the numpy library. (The top image is the C-Language program, and bottom is Python.
 
 ### Test 1:
 
-![ctest](https://user-images.githubusercontent.com/106401357/206395860-22a7c745-4514-40b3-aeab-a9acbdb47fce.png)
-![pythontest](https://user-images.githubusercontent.com/106401357/206395852-25113943-de4b-4c37-a146-81a666a876d2.png)
+<img src="images/ctest.png" alt="c-test-one">
+<img src="images/pythontest.png" alt="python-test-one">
 
 ### Test 2:
 
-![ctest2](https://user-images.githubusercontent.com/106401357/206396071-9d18c0b9-cd09-4cda-afde-878467e0939c.png)
-![pythontest2](https://user-images.githubusercontent.com/106401357/206396080-27524d6a-04f8-4bd7-a263-eb4c3494bfdc.png)
+<img src="images/ctest2.png" alt="c-test-two">
+<img src="images/pythontest2.png" alt=python-test-two">
 
 ### Test 3:
 
-![ctest3](https://user-images.githubusercontent.com/106401357/206396092-20c00efa-dcd3-44ec-b873-dd53763359a0.png)
-![pythontest3](https://user-images.githubusercontent.com/106401357/206396099-21e455f1-e136-4c57-ad1c-b356650375d2.png)
+<img src="images/ctest3.png" alt="c-test-three">
+<img src="images/pythontest3.png" alt="python-test-three">
 
 ## Further Testing and Data Visualiziation
 
 Simply put, in order to plot a comprehensive graph, only one value was used within the matrix, that was [5]. So, this was the time taken and space used in an NxN matrix filled with the value [5].
 
-![time_taken](https://user-images.githubusercontent.com/106401357/206398046-08b564cc-3618-4c4a-8f93-aab0c0d6876b.png)
+<img src="images/time_taken.png" alt="time-taken">
 
 As the values were not constant due to a machine with running process, an average was taken. This was the time taken to run the code and print out the input matrix, vector, and result.
 
@@ -98,7 +98,7 @@ As the values were not constant due to a machine with running process, an averag
 Under the same conditions, I ran the code and looped it over to find the space complexity. These were
 the values found when N increased by 250 periodically.
 
-![space_taken](https://user-images.githubusercontent.com/106401357/206398128-ecb0cc8e-5acb-4c9d-a513-a8ded3223745.png)
+<img src="images/space_taken.png" alt="space-test">
 
 ```
 250 = 0.6MB
