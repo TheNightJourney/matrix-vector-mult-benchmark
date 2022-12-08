@@ -1,10 +1,10 @@
-all: main_b_space.exe
+all: your_file.exe
 
-main_b_space.exe: mylib.o
-	gcc -o main_b_space main_b_space.c mylib.o
+your_file.exe: mylib.o
+	gcc -o your_file your_file.c mylib.o
 
 utils.o: mylib/mylib.c
-	gcc -o main_b_space.exe main_b_space.c mylib.o
+	gcc -o your_file.exe your_file.c mylib.o
 
 clear:
 	rm *.exe
